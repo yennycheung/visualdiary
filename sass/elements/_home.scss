@@ -20,6 +20,23 @@ nav{
 		}
 	}
 }
+.navigator{
+	position: fixed;
+	right: 50px;
+	list-style:none;
+	.circle{
+		display: block;
+		height: 12px;
+		width: 12px;
+		margin-bottom: 15px;
+		border-radius: 30px;
+		background-color:#a3a3a3;
+	}
+	.active{
+		background-color: transparent;
+		border: 1px solid #a3a3a3;
+	}
+}
 .frontpage{
 	background-color:#D2DDCF;
 	.title{
