@@ -1,0 +1,41 @@
+/* INCLUDE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro);
+
+/* END INCLUDE FONTS */
+
+p, li, a, span {
+    
+    font-size:16px;
+}
+p, li, span, h1, h3, h4, h5, h6 {
+    font-family: Advent Pro, sans-serif;
+   
+}
+h1 {
+	font-family: Pacifico, serif;
+}
+h2 { 
+    
+}
+h3 {
+    
+}
+h4 {
+    
+}
+h5 {
+    
+}
+p {
+	font-size: 18px;
+}
+a {
+    text-decoration:none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+strong {
+    
+}

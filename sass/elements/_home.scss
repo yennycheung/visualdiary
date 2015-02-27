@@ -1,0 +1,36 @@
+.navbar-default{
+		background-color:white;
+		margin-bottom: 0px;
+}
+nav{
+	.navbar-brand{
+		background-color: $pink;
+		padding:0px !important;
+		height: 40px;
+		width: 40px;
+		margin-left: 0px !important;
+		margin-top: 5px;
+		border-radius: 50px;
+		div{
+			text-align: center;
+			@include vertical-align;
+			color: white;
+			font-size: 20px;
+			font-family: Pacifico;
+		}
+	}
+}
+.frontpage{
+	background-color:#D2DDCF;
+	.title{
+		padding-right: 5%;
+		margin-top: 70px;
+	}
+	.row{
+		margin-bottom: 40px;
+	}
+	.btn{
+		background-color: #A7B7B1;
+		color: white;
+	}
+}
