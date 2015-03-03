@@ -5,10 +5,9 @@
 /* END INCLUDE FONTS */
 
 p, li, a, span {
-    
     font-size:16px;
 }
-p, li, span, h1, h3, h4, h5, h6 {
+p, li, span, h1, h3, h4, h5, h6, a {
     font-family: Advent Pro, sans-serif;
    
 }
@@ -33,7 +32,9 @@ p {
 }
 a {
     text-decoration:none;
+    color:#502A33;
     &:hover {
+    	color: inherit;
         text-decoration: underline;
     }
 }

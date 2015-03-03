@@ -5604,7 +5604,7 @@ button.close {
 p, li, a, span {
   font-size: 16px; }
 
-p, li, span, h1, h3, h4, h5, h6 {
+p, li, span, h1, h3, h4, h5, h6, a {
   font-family: Advent Pro, sans-serif; }
 
 h1 {
@@ -5618,8 +5618,10 @@ p {
   font-size: 18px; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #502A33; }
   a:hover {
+    color: inherit;
     text-decoration: underline; }
 
 * {
@@ -5661,6 +5663,13 @@ section.everythingcentered {
 
 .show {
   display: block; }
+
+.btn, input[type=submit] {
+  background-color: #A7B7B1;
+  color: white;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  font-size: 20px; }
 
 .navbar-default {
   background-color: white;
@@ -5704,12 +5713,9 @@ nav .navbar-brand {
   background-color: #D2DDCF; }
   .frontpage .title {
     padding-right: 5%;
-    margin-top: 70px; }
+    margin-top: 80px; }
   .frontpage .row {
     margin-bottom: 40px; }
-  .frontpage .btn, .frontpage input[type=submit] {
-    background-color: #A7B7B1;
-    color: white; }
 
 .story .row {
   margin-bottom: 20px; }
@@ -5737,6 +5743,25 @@ nav .navbar-brand {
 .makeup {
   background-color: #ECC7B5;
   color: #502A33; }
+
+.time {
+  background-color: #F9B2A4;
+  color: white; }
+
+.contacts {
+  background-color: #FEECD5;
+  color: #502A33;
+  text-align: center; }
+  .contacts h1 {
+    font-size: 50pt; }
+  .contacts .row {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+.footer p {
+  line-height: 50px;
+  margin-bottom: 0px;
+  margin-right: 15px; }
 
 @media (max-width: 1024px) {
   .home .banner {

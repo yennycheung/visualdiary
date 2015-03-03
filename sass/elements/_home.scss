@@ -41,14 +41,10 @@ nav{
 	background-color:#D2DDCF;
 	.title{
 		padding-right: 5%;
-		margin-top: 70px;
+		margin-top: 80px;
 	}
 	.row{
 		margin-bottom: 40px;
-	}
-	.btn{
-		background-color: #A7B7B1;
-		color: white;
 	}
 }
 
@@ -82,4 +78,26 @@ nav{
 	background-color:#ECC7B5;
 	color: #502A33;
 }
-
+.time{
+	background-color:#F9B2A4;
+	color: white;
+}
+.contacts{
+	background-color:#FEECD5;
+	color:#502A33;
+	text-align:center;
+	h1{
+		font-size: 50pt;
+	}
+	.row{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+.footer{
+	p{
+		line-height: 50px;
+		margin-bottom: 0px;
+		margin-right: 15px;
+	}
+}

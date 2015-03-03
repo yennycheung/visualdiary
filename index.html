@@ -12,7 +12,7 @@
 
 </head>
 <body data-grid-framework="b3" data-grid-color="grey" data-grid-opacity="0.3" data-grid-zindex="10" data-grid-gutterwidth="30px" data-grid-nbcols="16">
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" id="frontpage">
 	  <div class="container">
 	    <div class="navbar-header col-sm-1">
 	      <a class="navbar-brand" href="#">
@@ -21,30 +21,30 @@
 	    </div>
 	    <div class="collapse navbar-collapse col-sm-11" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li><a href="#">Wake Up</a></li>
-	        <li><a href="#">Brush</a></li>
-	        <li><a href="#">Cleanse, Tone, Moisturize</a></li>
-	        <li><a href="#">Mix & Match</a></li>
-	        <li><a href="#">Style</a></li>
-	        <li><a href="#">Make-up</a></li>
-	        <li><a href="#">Time!</a></li>
+	        <li><a href="#wakeup">Wake Up</a></li>
+	        <li><a href="#brush">Brush</a></li>
+	        <li><a href="#ctm">Cleanse, Tone, Moisturize</a></li>
+	        <li><a href="#mm">Mix & Match</a></li>
+	        <li><a href="#style">Style</a></li>
+	        <li><a href="#makeup">Make-up</a></li>
+	        <li><a href="#time">Time!</a></li>
 		  </div>
 	</nav>
 	<div class="navigator">
-		<a class="circle active" href="#"></a>
-		<a class="circle" href="#"></a>
-		<a class="circle" href="#"></a>
-		<a class="circle" href="#"></a>
-		<a class="circle" href="#"></a>
-		<a class="circle" href="#"></a>
-		<a class="circle" href="#"></a>
-		<a class="circle" href="#"></a>
+		<a class="circle active" href="#frontpage"></a>
+		<a class="circle" href="#wakeup"></a>
+		<a class="circle" href="#brush"></a>
+		<a class="circle" href="#ctm"></a>
+		<a class="circle" href="#mm"></a>
+		<a class="circle" href="#style"></a>
+		<a class="circle" href="#makeup"></a>
+		<a class="circle" href="#time"></a>
 	</div>
 	<section class="frontpage">
 		<div class="container">
 			<div class="row">
-				<img class="title col-xs-9" src="img/h1.png">
-				<img class="col-xs-2" src="img/bookmark.png">
+				<img class="title col-xs-10 col-md-9" src="img/h1.png">
+				<img class="col-xs-2 col-md-2" src="img/bookmark.png">
 			</div>
 			<div class="row">
 				<p class="col-md-5">I believe that everyone’s morning starts with a unique routine that prepares us best for the day. I made this page to show the essential pieces that make up my morning. Sometimes, it’s the little things in life that count the most. Scroll down and get this started!</p>
@@ -52,126 +52,174 @@
 				<p><button type="button" class="btn btn-default btn-lg col-md-3">CHECK THIS OUT!</button></p>
 		</div><!-- end container -->
 	</section>
-	<section class="story wakeup">
+	<section class="story wakeup" id="wakeup">
 		<div class="container">
-			<div class="pull-left col-md-6">
+			<div class="pull-left col-xs-6">
 				<div class="row">
-					<h2 class="col-md-1">1.</h2>
+					<h2 class="col-xs-1">1.</h2>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<h1 class="col-md-11">Wake Up</h1>
+					<div class="col-xs-1"></div>
+					<h1 class="col-xs-11">Wake Up</h1>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<p class="col-md-10">I start my day with 4 alarms. There is an 88% chance that I will press snooze for each alarm that rings, The first thing I think of after waking up is always brushing my teeth.</p>
+					<div class="col-xs-1"></div>
+					<p class="col-xs-10">I start my day with 4 alarms. There is an 88% chance that I will press snooze for each alarm that rings, The first thing I think of after waking up is always brushing my teeth.</p>
 				</div>
 				
 			</div>
-			<div class="pull-right col-md-5">
+			<div class="pull-right col-xs-5">
 				<img src="img/wakeup.gif">
 		</div>
 	</section>
-	<section class="story brush">
+	<section class="story brush" id="brush">
 		<div class="container">
-			<div class="pull-left col-md-5">
+			<div class="pull-left col-xs-5">
 				<img src="img/brush.gif">
 			</div>
-			<div class="pull-right col-md-6">
+			<div class="pull-right col-xs-6">
 				<div class="row">
-					<h2 class="col-md-1">2.</h2>
+					<h2 class="col-xs-1">2.</h2>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<h1 class="col-md-11">Brush</h1>
+					<div class="col-xs-1"></div>
+					<h1 class="col-xs-11">Brush</h1>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<p class="col-md-10">It’s a great opportunity to wake myself up during brushing. Chances are I usually can’t keep my eyes open when I brush my teeth. I’m technically still asleep during this stage. </p>
+					<div class="col-xs-1"></div>
+					<p class="col-xs-10">It’s a great opportunity to wake myself up during brushing. Chances are I usually can’t keep my eyes open when I brush my teeth. I’m technically still asleep during this stage. </p>
 				</div>	
 			</div>
 		</div>
 	</section>
-	<section class="story ctm">
+	<section class="story ctm" id="ctm">
 		<div class="container">
 			<div class="pull-left col-md-6">
 				<div class="row">
-					<h2 class="col-md-1">3.</h2>
+					<h2 class="col-xs-1">3.</h2>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<h1 class="col-md-11">Cleanse, Tone, Moisturize</h1>
+					<div class="col-xs-1"></div>
+					<h1 class="col-xs-11">Cleanse, Tone, Moisturize</h1>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<p class="col-md-10">It’s time to wake my skin up from the sleep. Cleaning, toning, and moisturizing my skin brings not only my skin, but my mind energy.</p>
+					<div class="col-xs-1"></div>
+					<p class="col-xs-10">It’s time to wake my skin up from the sleep. Cleaning, toning, and moisturizing my skin brings not only my skin, but my mind energy.</p>
 				</div>
 			</div>
-			<div class="pull-right col-md-5">
+			<div class="pull-right col-xs-5">
 				<img src="img/ctm.gif">
 			</div>
 		</div>
 	</section>
-	<section class="story mm">
+	<section class="story mm" id="mm">
 		<div class="container">
-			<div class="pull-left col-md-5">
+			<div class="pull-left col-xs-5">
 				<img src="img/mm.gif">
 			</div>
-			<div class="pull-right col-md-6">
+			<div class="pull-right col-xs-6">
 				<div class="row">
-					<h2 class="col-md-1">4.</h2>
+					<h2 class="col-xs-1">4.</h2>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<h1 class="col-md-11">Mix & Match</h1>
+					<div class="col-xs-1"></div>
+					<h1 class="col-xs-11">Mix & Match</h1>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<p class="col-md-10">The turning point of my morning routine. The most important bridge between the home and work. Changing my outfit reminds and prepares me for my role for the rest of my day. </p>
+					<div class="col-xs-1"></div>
+					<p class="col-xs-10">The turning point of my morning routine. The most important bridge between the home and work. Changing my outfit reminds and prepares me for my role for the rest of my day. </p>
 				</div>	
 			</div>
 		</div>
 	</section>
-	<section class="story style">
+	<section class="story style" id="style">
 		<div class="container">
 			<div class="pull-left col-md-6">
 				<div class="row">
-					<h2 class="col-md-1">5.</h2>
+					<h2 class="col-xs-1">5.</h2>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<h1 class="col-md-11">Style</h1>
+					<div class="col-xs-1"></div>
+					<h1 class="col-xs-11">Style</h1>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<p class="col-md-10">Styling my hair has two benefits. While combing my hair, I’m giving my head a nice massage. and that wakes me up further. When my hair is smooth, it feels like there are less problems in life.</p>
+					<div class="col-xs-1"></div>
+					<p class="col-xs-10">Styling my hair has two benefits. While combing my hair, I’m giving my head a nice massage. and that wakes me up further. When my hair is smooth, it feels like there are less problems in life.</p>
 				</div>
 			</div>
-			<div class="pull-right col-md-5">
+			<div class="pull-right col-xs-5">
 				<img src="img/style.gif">
 			</div>
 		</div>
 	</section>
-	<section class="story makeup">
+	<section class="story makeup" id="makeup">
 		<div class="container">
-			<div class="pull-left col-md-5">
+			<div class="pull-left col-xs-5">
 				<img src="img/makeup.gif">
 			</div>
-			<div class="pull-right col-md-6">
+			<div class="pull-right col-xs-6">
 				<div class="row">
-					<h2 class="col-md-1">6.</h2>
+					<h2 class="col-xs-1">6.</h2>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<h1 class="col-md-11">Make-up</h1>
+					<div class="col-xs-1"></div>
+					<h1 class="col-xs-11">Make-up</h1>
 				</div>
 				<div class="row">
-					<div class="col-md-1"></div>
-					<p class="col-md-10">Don’t fret if we still don’t look great! Even if I’m tired like a zombie, a little bit of concealer can do the magic to hide away the imperfections, giving me a confidece boost. </p>
+					<div class="col-xs-1"></div>
+					<p class="col-xs-10">Don’t fret if we still don’t look great! Even if I’m tired like a zombie, a little bit of concealer can do the magic to hide away the imperfections, giving me a confidence boost. </p>
 				</div>	
 			</div>
 		</div>
 	</section>
+	<section class="story time" id="time">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-5"></div>
+				<img class="col-xs-2" src="img/ready.png">
+			</div>
+			<div class="row">
+				<div>
+					<h1>Time!</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div>
+					<p>With a good morning routine, I will be well-prepared for any challenge I am going to have in the day. It is about beautifying oneself from inside out, setting the standard that can carry us through the rest of the day.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="story contacts">
+		<div class="container">
+			<div class="row">
+				<h1>like what you see?</h1>
+			</div>
+			<div class="row">
+				<div class="col-xs-4"></div>
+				<p><button type="button" class="btn btn-default btn-lg col-xs-4">Let's Chat!</button></p>
+			</div>
+			<div class="row">
+				<div class="col-xs-0 col-md-3"></div>
+				<a href="mailto:yennycheung@hotmail.com?Subject=Hey%20there"><img class="col-xs-2 col-md-1" src="img/media/mail.png"></a>
+				<a href="https://www.linkedin.com/in/yennycheung/en"><img class="col-xs-2 2 col-md-1" src="img/media/linkedin.png"></a>
+				<a href="https://www.facebook.com/yennycheung.yyc"><img class="col-xs-2 col-md-1" src="img/media/facebook.png"></a>
+				<a href="https://pinterest.com/yennycheung/"><img class="col-xs-2 col-md-1" src="img/media/pinterest.png"></a>
+				<a href="https://twitter.com/cheungyenny"><img class="col-xs-2 col-md-1" src="img/media/twitter.png"></a>
+				<a href="http://yennycheung.tumblr.com"><img class="col-xs-2 col-md-1" src="img/media/tumblr.png"></a>
+			</div>
+			<div class="row">
+				<a href="#">Back to Top</a>
+		</div>
+	</section>
+	<nav class="footer navbar navbar-default">
+	  <div class="container">
+	    <div class="collapse navbar-collapse col-sm-12" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="http://yennycheung.com">My Portfolio</a></li>
+		  </div>
+		  <p class="pull-right">© 2015 Yenny Cheung</p>
+	</nav>
 	<!-- JS INCLUDES -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script src="js/main.js"></script>
