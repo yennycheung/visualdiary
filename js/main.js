@@ -17,10 +17,22 @@ $(function() {
 	});
 
 	$(".circle").click(function(){
-		console.log("clicked");
 		$(".circle").removeClass("active");
 		$(this).addClass("active");
 	});
+	// $(window).scroll(function(event){
+	//     didScroll = true;
+	// });
+	// setInterval(function() {
+	//     if (didScroll) {
+	//         hasScrolled();
+	//         didScroll = false;
+	//     }
+	// }, 250);
+
+	// function hasScrolled(){
+	// 	console.log(location.href);
+	// }
 
 	$('a[href*=#]:not([href=#])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -35,6 +47,7 @@ $(function() {
 	    }
 	});
 });
+
 $.fn.scrollView = function () {
   return this.each(function () {
     $('html, body').animate({
